@@ -1,0 +1,36 @@
+
+.col1{
+
+    background-color: green;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: white;
+    }
+
+.col2{
+    background-color: rgb(47, 11, 47);
+    padding-top: 100px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: white;
+
+}
+
+.col3{
+    background-color: rgb(218, 153, 12);
+    padding-top: 100px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: white;
+
+}
+
+.col4{
+    background-color: rgb(218, 153, 12);
+    padding-top: 100px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: white;
+
+}
