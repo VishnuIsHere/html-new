@@ -63,7 +63,7 @@
 .col5{
 
 
-    background-color: aqua;
+    background-color: rgb(212, 195, 195);
 }
   
 
@@ -72,4 +72,27 @@
     background-color: aqua;
 
     
+}
+
+
+.L1{
+
+padding-bottom: 50px;
+background-color: rgb(218, 203, 203);
+
+}
+
+
+
+.L2{
+
+    padding-bottom: 50px;
+    background-color: rgb(15, 198, 208);
+    
+    }
+
+
+.th1{
+
+    background-color: aqua;
 }
