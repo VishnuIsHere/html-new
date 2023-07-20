@@ -15,8 +15,8 @@ height: 100vh;
 
 
 .main-h{   
-    font-family: 'Fraunces';
-   font-weight: bolder;
+    font-family: 'Barlow';
+   font-weight: bold;
    margin-top: 220px;
 }
 
@@ -25,4 +25,97 @@ height: 100vh;
 
     text-align: center;
     margin-top: 75px;
+}
+
+
+
+
+
+
+
+.col3{
+
+background-image: url('../webpimgs/image-transform.jpg');
+background-position: center;
+background-size: cover;
+height: 100vh;
+
+}
+
+.para{
+    font-family: 'Barlow';
+padding-top: -400px;
+
+
+
+
+}
+
+
+
+
+
+.box1{
+    font-family: 'Barlow';
+    padding-top: 300px;
+    padding-bottom: 300px;
+
+}
+
+.col4{
+
+background-image: url('../webpimgs/image-stand-out.jpg');
+background-position: center;
+background-size: cover;
+height: 100vh;
+
+}
+
+.box2{
+    font-family: 'Barlow';
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+
+
+
+.para2{
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+
+.col6{
+
+    background-image: url('../webpimgs/image-graphic-design.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+.box3{
+    font-family: 'Barlow';
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+
+.col7{
+    background-image: url('../webpimgs/image-gallery-orange.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.para3{
+    padding-top:-300px;
+   
+
+}
+.emily{
+
+    height: 80px;
+    border-radius: 50px;
 }
