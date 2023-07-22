@@ -1,3 +1,12 @@
+/* 
+font-family: 'Barlow', sans-serif;
+font-family: 'Comforter', cursive;
+font-family: 'Fraunces', serif;
+font-family: 'Moirai One', cursive; */
+
+
+
+
 .col1{
 background-image: url("../webpimgs/imagemain.jpg");
 background-position: center;
@@ -114,8 +123,118 @@ height: 100vh;
    
 
 }
-.emily{
 
-    height: 80px;
-    border-radius: 50px;
+.testimonial{
+    text-align: center;
+    
+}
+.ct{
+    font-family: 'Barlow';
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: grey;
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+
+
+
+.Emily{
+
+    border-radius: 50%;
+}
+
+
+.Thomas{
+
+border-radius: 50%;
+
+}
+
+.Jennie{
+
+    border-radius: 50%;
+}
+
+
+.emih1{
+
+    font-family: 'Barlow';
+    font-weight: bold;
+}
+
+.thomash2{
+
+    font-family: 'Barlow';
+    font-weight: bold;
+
+}
+
+.jennieh3{
+
+    font-family: 'Barlow';
+    font-weight: bold;
+}
+
+.p1{
+    font-family: sans-serif;
+}
+
+.p2{
+
+    font-family: sans-serif;
+}
+
+.p3{
+
+    font-family: sans-serif;
+}
+
+.milk{
+
+    width: 100%;
+    padding-top: 200px;
+    
+}
+.orange{
+
+    padding-top: 200px;
+    width: 100%;
+}
+
+.sugar{
+    padding-top: 200px;
+    width: 100%;
+}
+
+.cone{
+    padding-top: 200px;
+    width: 100%;
+}
+
+
+
+
+.col8{
+
+background-color: aquamarine;
+
+}
+
+
+.abt1{
+
+    color: rgb(78, 144, 122);
+}
+
+.src2{
+    color: rgb(78, 144, 122);
+}
+
+.pro3{
+
+    color: rgb(78, 144, 122);
 }
