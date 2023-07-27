@@ -30,6 +30,7 @@ height: 100vh;
     margin-top: 75px;
 }
 
+<<<<<<< HEAD
 .col3{
 
 background-image: url('../webpimgs/image-transform.jpg');
@@ -42,11 +43,19 @@ height: 100vh;
 .para{
     font-family: 'Barlow';
 padding-top: -400px;
+=======
+
+
+.para{
+   font-family: 'Barlow';
+   padding-top: -400px;
+>>>>>>> 2f79598 (html file)
 
 }
 
 .box1{
     font-family: 'Barlow';
+<<<<<<< HEAD
     padding-top: 300px;
     padding-bottom: 300px;
 
@@ -65,6 +74,33 @@ height: 100vh;
     font-family: 'Barlow';
     padding-top: 300px;
     padding-bottom: 300px;
+=======
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+.egg{
+
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+
+.stand{
+width: 100%;
+padding-left: 0;
+padding-right: 0;
+}
+
+
+
+.box2{
+    font-family: 'Barlow';
+    padding-top: 100px;
+    padding-bottom: 100px;
+>>>>>>> 2f79598 (html file)
 }
 
 .para2{
@@ -77,7 +113,11 @@ height: 100vh;
 
     background-image: url('../webpimgs/image-graphic-design.jpg');
     background-size: cover;
+<<<<<<< HEAD
     height: 100vh;
+=======
+   
+>>>>>>> 2f79598 (html file)
     
 
 }
@@ -85,10 +125,27 @@ height: 100vh;
 
 .box3{
     font-family: 'Barlow';
+<<<<<<< HEAD
+=======
+    padding-top: 700px;
+    padding-bottom: 100px;
+}
+.para3{
+    padding-top:200px;
+    padding-bottom: 400px;
+   
+
+}
+
+.box4{
+
+    font-family: 'Barlow';
+>>>>>>> 2f79598 (html file)
     padding-top: 400px;
     padding-bottom: 400px;
 }
 
+<<<<<<< HEAD
 .col7{
     background-image: url('../webpimgs/image-photography.jpg');
     background-size: cover;
@@ -102,6 +159,17 @@ height: 100vh;
 
 }
 
+=======
+
+.col7{
+    background-image: url('../webpimgs/image-photography.jpg');
+    background-size: cover;
+
+
+}
+
+
+>>>>>>> 2f79598 (html file)
 .testimonial{
     text-align: center;
     
@@ -165,25 +233,62 @@ border-radius: 50%;
     font-family: sans-serif;
 }
 
+<<<<<<< HEAD
 .milk{
 
     width: 100%;
     padding-top: 200px;
+=======
+
+
+.pad1>[class*='col-']{
+
+    padding-left: 0;
+   padding-right: 0;
+
+}
+
+.pad2>[class*='col-']{
+    padding-left: 0;
+    padding-right: 0;
+
+
+    
+}
+
+
+.milk{
+
+    width: 100%;
+  
+>>>>>>> 2f79598 (html file)
     
 }
 .orange{
 
+<<<<<<< HEAD
     padding-top: 200px;
+=======
+   
+>>>>>>> 2f79598 (html file)
     width: 100%;
 }
 
 .sugar{
+<<<<<<< HEAD
     padding-top: 200px;
+=======
+    
+>>>>>>> 2f79598 (html file)
     width: 100%;
 }
 
 .cone{
+<<<<<<< HEAD
     padding-top: 200px;
+=======
+  
+>>>>>>> 2f79598 (html file)
     width: 100%;
 }
 
@@ -225,3 +330,14 @@ width: 50px;
 
     width: 50px;
 }
+<<<<<<< HEAD
+=======
+
+
+.box > [class*='col-']{
+    padding-left: 0;
+    padding-right:0;
+}
+
+
+>>>>>>> 2f79598 (html file)
