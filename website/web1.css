@@ -4,6 +4,46 @@ font-family: 'Comforter', cursive;
 font-family: 'Fraunces', serif;
 font-family: 'Moirai One', cursive; */
 
+
+a {
+    text-decoration: none;
+    color: #18272F;
+    font-weight: 700;
+    position: relative;
+    display: grid;
+    font-family: 'Barlow';
+    font-size: 20px;
+    line-height: 1.5;
+    
+    place-items: left;
+  }
+  
+  a::before {
+    content: '';
+    background-color: #ff7769;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 21%;
+    height: 8px;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+  }
+  
+  a:hover::before {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  /* Presentational Styles */
+  /* body {
+    display: grid;
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 1.5;
+    height: 100vh;
+    place-items: center;
+  } */
 .col1{
 background-image: url("../webpimgs/imagemain.jpg");
 background-position: center;
@@ -30,55 +70,34 @@ height: 100vh;
     margin-top: 75px;
 }
 
-<<<<<<< HEAD
-.col3{
-
-background-image: url('../webpimgs/image-transform.jpg');
-background-size: cover;
-height: 100vh;
+.col2{
 
 
+    padding-top:10px ;
+    padding-bottom:10px ;
+    padding-left:200px ;
+    padding-right:200px ;
 }
 
 .para{
-    font-family: 'Barlow';
-padding-top: -400px;
-=======
-
-
-.para{
    font-family: 'Barlow';
-   padding-top: -400px;
->>>>>>> 2f79598 (html file)
+   padding-top: 150px;
 
 }
 
 .box1{
     font-family: 'Barlow';
-<<<<<<< HEAD
-    padding-top: 300px;
-    padding-bottom: 300px;
+    font-weight: bold;
+    padding-top: 170px;
+    
 
 }
 
-.col4{
-
-background-image: url('../webpimgs/image-stand-out.jpg');
-background-size: cover;
-height: 100vh;
 
 
-}
 
-.box2{
-    font-family: 'Barlow';
-    padding-top: 300px;
-    padding-bottom: 300px;
-=======
-    padding-top: 150px;
-    padding-bottom: 150px;
 
-}
+
 .egg{
 
     width: 100%;
@@ -95,29 +114,43 @@ padding-right: 0;
 }
 
 
+.col5{
+
+    padding-top:200px ;
+    padding-bottom:200px ;
+    padding-left:200px ;
+    padding-right:200px ;
+
+}
+
+
 
 .box2{
     font-family: 'Barlow';
-    padding-top: 100px;
-    padding-bottom: 100px;
->>>>>>> 2f79598 (html file)
+    font-weight: bold;
+    padding-top: 170px;
+
 }
 
 .para2{
-    padding-top: 200px;
-    padding-bottom: 200px;
+    font-family: 'Barlow';
+    padding-top: 150px;
 
 }
+
+
 
 .col6{
 
     background-image: url('../webpimgs/image-graphic-design.jpg');
     background-size: cover;
-<<<<<<< HEAD
     height: 100vh;
-=======
    
->>>>>>> 2f79598 (html file)
+    padding-top:350px ;
+    padding-bottom:300px ;
+    padding-left:200px ;
+    padding-right:200px ;
+
     
 
 }
@@ -125,51 +158,46 @@ padding-right: 0;
 
 .box3{
     font-family: 'Barlow';
-<<<<<<< HEAD
-=======
-    padding-top: 700px;
-    padding-bottom: 100px;
+    font-weight: bold;
+    padding-top: 170px;
 }
 .para3{
-    padding-top:200px;
-    padding-bottom: 400px;
-   
+    font-family: 'Barlow';
+    padding-top: 150px
 
 }
+
+
+
+.col7{
+    background-image: url('../webpimgs/image-photography.jpg');
+    background-size: cover;
+    width: 100%;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    padding-left:200px ;
+    padding-right:200px ;
+   
+}
+
+.para4{
+
+    font-family: 'Barlow';
+    padding-top: 150px;
+
+}
+
+
 
 .box4{
 
     font-family: 'Barlow';
->>>>>>> 2f79598 (html file)
-    padding-top: 400px;
-    padding-bottom: 400px;
-}
-
-<<<<<<< HEAD
-.col7{
-    background-image: url('../webpimgs/image-photography.jpg');
-    background-size: cover;
-    height: 100vh;
-   
-}
-
-.para3{
-    padding-top:-300px;
-   
-
-}
-
-=======
-
-.col7{
-    background-image: url('../webpimgs/image-photography.jpg');
-    background-size: cover;
-
-
+    font-weight: bold;
+    padding-top: 170px;
 }
 
 
->>>>>>> 2f79598 (html file)
+
 .testimonial{
     text-align: center;
     
@@ -233,14 +261,6 @@ border-radius: 50%;
     font-family: sans-serif;
 }
 
-<<<<<<< HEAD
-.milk{
-
-    width: 100%;
-    padding-top: 200px;
-=======
-
-
 .pad1>[class*='col-']{
 
     padding-left: 0;
@@ -258,37 +278,25 @@ border-radius: 50%;
 
 
 .milk{
-
+    padding-top: 200px;
     width: 100%;
-  
->>>>>>> 2f79598 (html file)
-    
+
 }
 .orange{
 
-<<<<<<< HEAD
     padding-top: 200px;
-=======
-   
->>>>>>> 2f79598 (html file)
     width: 100%;
 }
 
 .sugar{
-<<<<<<< HEAD
     padding-top: 200px;
-=======
     
->>>>>>> 2f79598 (html file)
     width: 100%;
 }
 
 .cone{
-<<<<<<< HEAD
     padding-top: 200px;
-=======
   
->>>>>>> 2f79598 (html file)
     width: 100%;
 }
 
@@ -330,14 +338,10 @@ width: 50px;
 
     width: 50px;
 }
-<<<<<<< HEAD
-=======
+
 
 
 .box > [class*='col-']{
     padding-left: 0;
     padding-right:0;
 }
-
-
->>>>>>> 2f79598 (html file)
