@@ -14,7 +14,6 @@ a {
     font-family: 'Barlow';
     font-size: 20px;
     line-height: 1.5;
-    
     place-items: left;
   }
   
@@ -24,7 +23,7 @@ a {
     position: absolute;
     left: 0;
     bottom: 3px;
-    width: 21%;
+    width: 25%;
     height: 8px;
     z-index: -1;
     transition: all .3s ease-in-out;
@@ -44,6 +43,44 @@ a {
     height: 100vh;
     place-items: center;
   } */
+
+
+
+
+  .hv{
+    
+    text-decoration: none;
+    color: #18272F;
+    font-weight: 700;
+    position: relative;
+    display: grid;
+    font-family: 'Barlow';
+    font-size: 20px;
+    line-height: 1.5;
+    place-items: left;
+    padding-right: 100px;
+    padding-left: 100px;
+      }
+      
+      .hv::before {
+        content: '';
+    background-color: #ff7769;
+    position: absolute;
+    left: 100px;
+    bottom: 3px;
+    width: 15%;
+    height: 8px;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+      }
+      
+      .hv:hover::before {
+        bottom: 0;
+        height: 100%;
+      }
+      
+
+
 .col1{
 background-image: url("../webpimgs/imagemain.jpg");
 background-position: center;
@@ -73,22 +110,22 @@ height: 100vh;
 .col2{
 
 
-    padding-top:10px ;
-    padding-bottom:10px ;
+    padding-top:50px ;
+    padding-bottom:50px ;
     padding-left:200px ;
     padding-right:200px ;
 }
 
 .para{
    font-family: 'Barlow';
-   padding-top: 150px;
+   padding-top: 50px;
 
 }
 
 .box1{
     font-family: 'Barlow';
     font-weight: bold;
-    padding-top: 170px;
+    padding-top: 50px;
     
 
 }
@@ -128,13 +165,21 @@ padding-right: 0;
 .box2{
     font-family: 'Barlow';
     font-weight: bold;
-    padding-top: 170px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+   
+    
 
 }
 
 .para2{
     font-family: 'Barlow';
-    padding-top: 150px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px 
+    
 
 }
 
@@ -143,13 +188,18 @@ padding-right: 0;
 .col6{
 
     background-image: url('../webpimgs/image-graphic-design.jpg');
+    background-position: center;
     background-size: cover;
     height: 100vh;
+
+
+  
    
-    padding-top:350px ;
+   
+    /* padding-top:350px ;
     padding-bottom:300px ;
     padding-left:200px ;
-    padding-right:200px ;
+    padding-right:200px ; */
 
     
 
@@ -172,12 +222,13 @@ padding-right: 0;
 .col7{
     background-image: url('../webpimgs/image-photography.jpg');
     background-size: cover;
-    width: 100%;
-    padding-top:10px ;
+    height: 100vh;
+  
+    /* padding-top:10px ;
     padding-bottom:10px ;
     padding-left:200px ;
     padding-right:200px ;
-   
+    */
 }
 
 .para4{
